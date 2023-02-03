@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Space+Grotesk");
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     border: 0;
@@ -74,7 +76,8 @@ img {
     font-size: 32px;
 }
 
-.card-links a:hover, .card-links i:hover {
+.card-links a:hover,
+.card-links i:hover {
     color: steelblue;
 }
 
@@ -82,14 +85,7 @@ img {
     width: 24px;
 }
 
-.author {
-    display: flex;
-    justify-content: space-between;
-}
-
-.author span {
-    width: 60px;
-}
+/*------------------------------------*/
 
 .animated-bg {
     background-image: linear-gradient(to right,
@@ -117,4 +113,14 @@ img {
     100% {
         background-position: -150% 0;
     }
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px
+}
+
+.author span {
+    width: 60px;
 }
