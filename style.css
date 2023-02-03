@@ -20,7 +20,7 @@ body {
 
 .display {
     background-color: #1d1d1d;
-    height: 5vh;
+    height: 8vh;
 }
 
 /* - Wave - */
@@ -93,6 +93,7 @@ body {
 }
 
 #projetos .fim a {
+    display: flex;
     color: black;
     font-weight: bold;
     font-size: 17px;
@@ -107,6 +108,10 @@ body {
 
 #projetos .fim a:hover, #projetos .fim i:hover {
     color: steelblue;
+}
+
+#projetos .fim span{
+    display: flex;
 }
 
 #projetos .fim img {
