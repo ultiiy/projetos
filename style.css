@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Space+Grotesk");
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    line-height: 1;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ecf0f1;
+    font-family: 'Space Grotesk';
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 340px;
+    margin: 10px;
+}
+
+.card-header {
+    height: 200px;
+}
+
+.card-header img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.card-content {
+    background-color: #fff;
+    padding: 20px 30px 10px 30px;
+}
+
+.card-excerpt {
+    color: #777;
+    margin: 10px 0 10px;
+}
+
+.card-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-links a {
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.33s;
+    text-decoration: none;
+}
+
+.card-links i {
+    color: black;
+    font-size: 32px;
+}
+
+.card-links a:hover, .card-links i:hover {
+    color: steelblue;
+}
+
+.card-links img {
+    width: 24px;
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author span {
+    width: 60px;
+}
+
+.animated-bg {
+    background-image: linear-gradient(to right,
+            #f6f7f8 0%,
+            #edeef1 10%,
+            #f6f7f8 20%,
+            #f6f7f8 100%);
+    background-size: 200% 100%;
+    animation: bgPos 1s linear infinite;
+}
+
+.animated-bg-text {
+    border-radius: 50px;
+    display: flex;
+    margin: auto;
+    height: auto;
+    width: 100%;
+}
+
+@keyframes bgPos {
+    0% {
+        background-position: 50% 0;
+    }
+
+    100% {
+        background-position: -150% 0;
+    }
+}
