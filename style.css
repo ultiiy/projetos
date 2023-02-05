@@ -5,7 +5,6 @@
     padding: 0;
     border: 0;
     vertical-align: baseline;
-  
     text-decoration: none;
     box-sizing: border-box;
 }
@@ -15,12 +14,24 @@ body {
     font-family: 'Space Grotesk';
 }
 
-
 /* - Display - */
 
-.display {
+#display {
     background-color: #1d1d1d;
-    height: 8vh;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display img {
+    width: 40px;
+    display: flex;
+}
+
+#display span {
+    border: 3px solid white;
+    padding: 10px;
 }
 
 /* - Wave - */
