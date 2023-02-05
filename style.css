@@ -74,6 +74,7 @@ body {
     overflow: hidden;
     width: 340px;
     margin: 10px;
+    transition: 0.6s;
 }
 
 #projetos .card:hover {
