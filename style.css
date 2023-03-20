@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Space+Grotesk");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ecf0f1;
+    font-family: 'Space Grotesk';
+}
+
+/* - Display - */
+
+#display {
+    background-color: #1d1d1d;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display img {
+    width: 40px;
+    display: flex;
+}
+
+#display span {
+    border: 3px solid white;
+    padding: 10px;
+}
+
+/* - Wave - */
+
+.wave {
+    width: 100%;
+}
+
+/* - Projetos - */
+
+#projetos .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#projetos .titulo h1 {
+    padding-bottom: 4px
+}
+
+#projetos .titulo hr {
+    border: 3px solid steelblue;
+    width: 50px;
+}
+
+#projetos .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#projetos .card {
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width: 330px;
+    margin: 12px;
+    transition: all 0.6s;
+}
+
+#projetos .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 60px;
+}
+
+#projetos img {
+    width: 100%;
+    height: 100%;
+}
+
+#projetos .meio {
+    padding: 15px 25px 15px 25px;
+}
+
+#projetos .meio p {
+    color: #777;
+    margin: 10px 0 10px 0;
+}
+
+#projetos .fim {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#projetos .fim a {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+#projetos .fim i {
+    color: black;
+    font-size: 32px;
+    transition: 0.4s;
+}
+
+#projetos .fim a:hover, #projetos .fim i:hover {
+    color: steelblue;
+}
+
+#projetos .fim span{
+    display: flex;
+}
+
+#projetos .fim img {
+    width: 24px;
+    margin: 2px;
+}
+
+/* - Home - */
+
+#home {
+    position: fixed;
+    top: 98%;
+    left: 100%;
+    transform: translate(-100%, -100%);
+}
+
+#home i {
+    background-color: #1d1d1d;
+    color: white;
+    font-size: 36px; 
+    padding: 5px;
+    border: 2px solid #1d1d1d;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+#home i:hover {
+    color: steelblue;
+}
